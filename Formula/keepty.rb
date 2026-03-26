@@ -1,24 +1,24 @@
 class Keepty < Formula
   desc "Persistent terminal sessions with native rendering and agent screen reading"
   homepage "https://github.com/BorjaGM1/keepty"
-  version "0.1.0"
+  version "0.1.1"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
     on_arm do
-      url "https://github.com/BorjaGM1/keepty/releases/download/v0.1.0/keepty-aarch64-apple-darwin.tar.gz"
-      sha256 "c36f0203eecb4a8aca31c31c2a499f510ab266174cc978bb8810412ac33640b9"
+      url "https://github.com/BorjaGM1/keepty/releases/download/v0.1.1/keepty-aarch64-apple-darwin.tar.gz"
+      sha256 "290a37072103393d8b47160e8ab94cc0487103b50fe27c4f5d383c0cdcd37721"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/BorjaGM1/keepty/releases/download/v0.1.0/keepty-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "ccedb8e756b06b724ccf909a0c5309f8193e7207f225d968800fc044e126fbd1"
+      url "https://github.com/BorjaGM1/keepty/releases/download/v0.1.1/keepty-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "b2f2b20e8b7405f2b4321522196457756628999e07fa7dc5bc32df1a6f0d03ee"
     end
     on_intel do
-      url "https://github.com/BorjaGM1/keepty/releases/download/v0.1.0/keepty-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "911067e421252cea66a7cec0c43fbb874053b409f09647125d534d0e88b0c68b"
+      url "https://github.com/BorjaGM1/keepty/releases/download/v0.1.1/keepty-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "67316c322c2f3b8fcc39e6324389f0196b032b668382197a205b0cc640a533c2"
     end
   end
 
